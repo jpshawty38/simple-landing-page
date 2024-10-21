@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    height: 100vh;
+    background-color: #76D0CF;
+    background-image: linear-gradient(to left, #D5D8D6 1%, transparent);
+}
+
+
+header {
+    height: 20vh;
+    align-items: center;
+    display: flex;
+}
+
+.nome_logo img {
+    height: 30px;
+    width: 30px;
+}
+
+.nome_logo {
+    display: flex;
+    margin-left: 10vh;
+}
+
+.nome_logo h3 {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.details {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20vh;
+    margin-top: 10%;
+}
+
+.details h1,
+h2 {
+    font-size: 60px;
+}
+
+input[type="button"] {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 40px;
+    background-color: #E6E8E6;
+}
+
+input[type="button"]:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#buy_all {
+    margin-left: 20px;
+}
+
+#fone {
+    height: 600px;
+    margin-left: 50%;
+    margin-top: -350px;
+}
+
+.secundary_content h1{
+    font-size: 50px;
+    margin-top: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_screen img{
+    height: 600px;
+    margin-left: 50%;
+    border-radius: 0% 30% 0% 0%;
+    height: 400px;
+}
+
+.secundary_content{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text_secundary h5{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_secundary{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    width:400px;
+    align-items: center;
+    text-align: center;
+}
+
+.img_screen{
+    margin-top: -200px;
+    margin-left: 11%;
+}
+
+.products h1{
+    margin-top: 100px;
+    margin-right: 10%;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item_product{
+    text-align: center;
+    height: 500px;
+    width: 460px;
+    background-color: white;
+}
+
+.item_product img {
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+
+.item_product h1{
+    font-size: 30px;
+}
+
+.item_product h2{
+    font-size: 15px;
+}
